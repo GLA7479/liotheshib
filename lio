@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liosh Token</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-[Rubik] bg-black text-white">
+    <!-- Header -->
+    <header class="flex justify-between items-center p-6 border-b border-gray-800">
+      <h1 class="text-2xl font-bold">LIOSH</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-yellow-400">עלינו</a>
+        <a href="#tokenomics" class="hover:text-yellow-400">טוקנומיקס</a>
+        <a href="#roadmap" class="hover:text-yellow-400">מפת דרכים</a>
+        <a href="#howtobuy" class="hover:text-yellow-400">איך קונים?</a>
+        <a href="#contact" class="hover:text-yellow-400">צור קשר</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="text-center py-20 px-4 bg-gradient-to-b from-yellow-500 to-yellow-300 text-black">
+      <h2 class="text-4xl md:text-6xl font-extrabold mb-4">ברוכים הבאים ל־LIOSH</h2>
+      <p class="text-xl md:text-2xl max-w-2xl mx-auto">מטבע המם החדש שכולם מדברים עליו! הצטרפו למהפכה והיו חלק מהקהילה שלנו עוד היום.</p>
+      <div class="mt-8">
+        <a href="#howtobuy" class="bg-black text-yellow-300 font-bold px-6 py-3 rounded-full hover:bg-gray-900 transition">קנו עכשיו</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 bg-black">
+      <h3 class="text-3xl font-bold mb-6 text-yellow-400 text-center">מי אנחנו?</h3>
+      <p class="max-w-3xl mx-auto text-center text-lg">LIOSH נולד מתוך קהילה של חובבי קריפטו בישראל שרצו מטבע מם עם טוויסט. אנחנו מצחיקים, משוגעים, ומאמינים שהבמה שייכת לקהילה. אין משקיעים מוקדמים, אין חלוקת צוות, רק אנחנו – והחזון.</p>
+    </section>
+
+    <!-- Tokenomics -->
+    <section id="tokenomics" class="py-20 px-6 bg-gray-900">
+      <h3 class="text-3xl font-bold mb-6 text-yellow-400 text-center">טוקנומיקס</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto text-center">
+        <div class="p-6 border border-yellow-400 rounded-2xl">
+          <h4 class="text-xl font-bold mb-2">סה"כ היצע:</h4>
+          <p>1,000,000,000 LIOSH</p>
+        </div>
+        <div class="p-6 border border-yellow-400 rounded-2xl">
+          <h4 class="text-xl font-bold mb-2">עמלות:</h4>
+          <p>0% קנייה, 0% מכירה</p>
+        </div>
+        <div class="p-6 border border-yellow-400 rounded-2xl">
+          <h4 class="text-xl font-bold mb-2">נכון לקהילה בלבד:</h4>
+          <p>100% מההיצע לפריסייל ונזילות</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roadmap -->
+    <section id="roadmap" class="py-20 px-6 bg-black">
+      <h3 class="text-3xl font-bold mb-6 text-yellow-400 text-center">מפת דרכים</h3>
+      <ol class="max-w-4xl mx-auto space-y-4 text-lg list-decimal list-inside">
+        <li>השקת האתר ופריסייל</li>
+        <li>רישום ב־DEX כמו Uniswap</li>
+        <li>שיווק ברשתות החברתיות</li>
+        <li>שותפויות עם משפיענים</li>
+        <li>איירדרופים ופעילויות קהילה</li>
+        <li>רישום ב־CoinMarketCap ו־CoinGecko</li>
+        <li>כניסה לבורסות מרכזיות (CEX)</li>
+      </ol>
+    </section>
+
+    <!-- How to Buy -->
+    <section id="howtobuy" class="py-20 px-6 bg-gray-900">
+      <h3 class="text-3xl font-bold mb-6 text-yellow-400 text-center">איך קונים?</h3>
+      <div class="max-w-3xl mx-auto space-y-4 text-lg">
+        <p>1. הורידו ארנק כמו MetaMask או Trust Wallet</p>
+        <p>2. הוסיפו רשת Ethereum</p>
+        <p>3. רכשו ETH דרך כרטיס אשראי או העברה</p>
+        <p>4. התחברו ל־Uniswap</p>
+        <p>5. החליפו ETH ל־LIOSH בעזרת כתובת החוזה שלנו</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 px-6 bg-black text-center">
+      <h3 class="text-3xl font-bold mb-6 text-yellow-400">צור קשר</h3>
+      <p>יש לכם שאלה? פנו אלינו בטלגרם: <a href="https://t.me/LioshPortal" class="text-blue-400 underline">@LioshPortal</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 text-center border-t border-gray-800 bg-black text-gray-500 text-sm">
+      &copy; 2025 LIOSH. כל הזכויות שמורות.
+    </footer>
+  </body>
+</html>
